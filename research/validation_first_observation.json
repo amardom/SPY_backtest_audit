@@ -1,0 +1,95 @@
+{
+  "status": "VALIDATION_OBSERVED",
+  "observed_at_utc": "2026-10-20T09:47:18.589832+00:00",
+  "evidence": {
+    "period": {
+      "start": "2016-01-01",
+      "end_exclusive": "2022-01-01"
+    },
+    "snapshot_sha256": "b3b99053f6125990a88bb86e5dded9fe548ea9857dce7236dc3f708160e03ea2",
+    "freeze_sha256": "fa8a7ed7739e190a6691ed647d49347da65ff544521e2ba8a407bf9efce6c892",
+    "classification": "NOT_SUPPORTED_BY_VALIDATION_SCREEN",
+    "scenarios": [
+      {
+        "strategy": "dip",
+        "cost_bps_per_side": "0",
+        "primary": false,
+        "total_return": "0.04058179833560501694752923",
+        "max_close_drawdown": "-0.1949184890535205541639734061",
+        "trades": 40,
+        "total_cost_usd": "0E-23",
+        "terminal_liquidations": 0
+      },
+      {
+        "strategy": "buy_and_hold",
+        "cost_bps_per_side": "0",
+        "primary": false,
+        "total_return": "1.514533300906511316251499397",
+        "max_close_drawdown": "-0.3180348284584215301435347407",
+        "trades": 1,
+        "total_cost_usd": "0E-22",
+        "terminal_liquidations": 1
+      },
+      {
+        "strategy": "dip",
+        "cost_bps_per_side": "5",
+        "primary": true,
+        "total_return": "-0.0002153212306195575321053678",
+        "max_close_drawdown": "-0.2041578903122654300094076966",
+        "trades": 40,
+        "total_cost_usd": "3961.203360981051874868018374",
+        "terminal_liquidations": 0
+      },
+      {
+        "strategy": "buy_and_hold",
+        "cost_bps_per_side": "5",
+        "primary": true,
+        "total_return": "1.512098105860907203094122709",
+        "max_close_drawdown": "-0.3180348284584215301435347409",
+        "trades": 1,
+        "total_cost_usd": "167.8306839254032539559846004",
+        "terminal_liquidations": 1
+      },
+      {
+        "strategy": "dip",
+        "cost_bps_per_side": "10",
+        "primary": false,
+        "total_return": "-0.0394129609207724873115173431",
+        "max_close_drawdown": "-0.2191361550251994100251890899",
+        "trades": 40,
+        "total_cost_usd": "7767.633351043542829907719874",
+        "terminal_liquidations": 0
+      },
+      {
+        "strategy": "buy_and_hold",
+        "cost_bps_per_side": "10",
+        "primary": false,
+        "total_return": "1.509665343577586410729111033",
+        "max_close_drawdown": "-0.3180348284584215301435347411",
+        "trades": 1,
+        "total_cost_usd": "335.4937048299020091567684168",
+        "terminal_liquidations": 1
+      }
+    ],
+    "primary_control_contrast": "-0.0902458932236901280530930578",
+    "control_return_quantiles": {
+      "p05": "-0.1128954273356790975134385608",
+      "p50": "0.09003057199307057052098769",
+      "p95": "0.347506308736578334640232042"
+    }
+  },
+  "first_execution_code_sha256": {
+    "spy_backtest_audit/__init__.py": "2be78cf834043c8332a912b09f56f9bd4d707ca787f1d23a835dec1b197a7881",
+    "spy_backtest_audit/__main__.py": "820ea88af2cfc0772b6e003381fd4c26089189b18602cbeb9027e71e5be31b7a",
+    "spy_backtest_audit/acquire.py": "642c6b82bde879ac0155c67117f4b976b5037686ec6c8c799b671763fe216c4a",
+    "spy_backtest_audit/backtest.py": "2193a69cb7778b939fb6de53c58b7de5f6edab6d1b6b453733a8e2a1d19b3859",
+    "spy_backtest_audit/calendar.py": "1a5b3d2738bcbbb7952116f66cd9a12226f3df876410506fd00557c9dd41e303",
+    "spy_backtest_audit/controls.py": "a949b1fddddee51cf055ef251b15d1b11b0111070b6fc6a5bb5030599aac73b7",
+    "spy_backtest_audit/data.py": "ab867d4bc01fcc68c98ad333e949216541af48b8c37a46932a924b292f366580",
+    "spy_backtest_audit/diagnostics.py": "18212e1baeeb2e9e2e82c4c9565fac2e77a9263a74457cdaa3b83431cac831a6",
+    "spy_backtest_audit/protocol.py": "112a020b1d330c9a2820f312adb9d9ac1ff5082a1dae0c376ca24e92bc8f081e",
+    "spy_backtest_audit/signals.py": "4eb2dd4349dba76fe4bb7a75385466784346f5b6ef10c5bc3c392b93a33fdea5",
+    "spy_backtest_audit/validation.py": "b0d2354051bb5cb95041ff751067a3ba3ab970487299ab63fe4be6d4db7e8750",
+    "spy_backtest_audit/workflow.py": "da6cacbd70aa9795dff53b34b2ca1b27ae1a30f8f0bd3b6e26b703fdc745520d"
+  }
+}

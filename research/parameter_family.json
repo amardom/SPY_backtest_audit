@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "stage": "exploratory_after_validation_observed",
+  "lookback_sessions": [
+    15,
+    20,
+    30
+  ],
+  "threshold_sigma": [
+    "1.5",
+    "2",
+    "2.5"
+  ],
+  "holding_open_intervals": [
+    3,
+    5,
+    10
+  ],
+  "primary": [
+    20,
+    "2",
+    5
+  ],
+  "periods": [
+    "development",
+    "validation"
+  ],
+  "cost_bps_per_side": "5",
+  "calendars": 500,
+  "seed": 1729,
+  "selection": "none",
+  "final_evaluation": "not_accessed"
+}

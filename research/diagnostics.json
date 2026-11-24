@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "scope": "development_only",
+  "cost_scenario": "primary_only",
+  "annual": true,
+  "blocks": [
+    {"label": "2000-2004", "start": "2000-01-01", "end_exclusive": "2005-01-01"},
+    {"label": "2005-2009", "start": "2005-01-01", "end_exclusive": "2010-01-01"},
+    {"label": "2010-2015", "start": "2010-01-01", "end_exclusive": "2016-01-01"}
+  ],
+  "interpretation": "exploratory_calendar_stability_not_regime_identification"
+}

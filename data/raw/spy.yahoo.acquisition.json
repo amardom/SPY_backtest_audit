@@ -1,0 +1,5 @@
+{
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=946684800&period2=1640995200&interval=1d&events=div%2Csplits",
+  "retrieved_at": "2026-10-20T09:12:35.421431+00:00",
+  "sha256": "adb5c2b7e316956eb1bacb1d238d7e49c1cafab94c088d1788effec1f896d5ee"
+}

@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "status": "RULES_FROZEN_NOT_EXECUTED",
+  "recorded_after": "Development outcomes and controls observed; no validation performance computed",
+  "snapshot_sha256": "b3b99053f6125990a88bb86e5dded9fe548ea9857dce7236dc3f708160e03ea2",
+  "file_sha256": {
+    "research/strategy.json": "1a73d1cec5f76952c46bdcbe1437e3ef3c13805205d8259b795a71be0583741a",
+    "research/signal_rules.md": "27677915bebb5ecf1eb0bdcb653d0b8e1d0da20edcac28da9739139e5f54d584",
+    "research/execution.json": "816c18cf2484f90527c5a062117de5ec90941250fa7be142640faec8c83c446a",
+    "research/execution_rules.md": "b6d4ad6e7f723b0b5db77a43288701ec7c0662ac8c0a0ca231dfb1e1e6cf395c",
+    "research/controls.json": "9eaa8b9b3d65257c690b69368573957cb81d10e29a74dc505ca0f424d0ebf481",
+    "research/control_rules.md": "41a3ce3784a44d7e54799de9c2eb175aad3ae2c0c9f94ff43dfc18be452481ef",
+    "research/diagnostics.json": "512943fd072d664e162a4210f2f4d2c0f7a116d9c34d39e70b6b95e2e7d1a682",
+    "research/diagnostic_rules.md": "0a1ddcd10435e5bf1733ad293262fff0df5f524a33cba00ef01fe7dbcdb51c50",
+    "research/data_plan.json": "deaa58c1e05be6b614aa94c689e2c3576ee697a2e1230e3f1a9ecd718367469a",
+    "research/validation.json": "2b11d4c46fb40279b89740b5785ba39cc23725eb3483b09e6231a2a92aeca43e",
+    "research/validation_protocol.md": "ea05952ec6e1cf2f7a2c69ec39bbf03be5c43e0c96727e62241563890ce6688e",
+    "research/calendar/manifest.json": "ebbd7df4591ad38437bf589278c08f55cdea587f628e4599eedbbcfe8214e935",
+    "research/calendar/xnys_2000_2021.csv": "ebd21bb821ef8be0bf5abe7d33eca5da02a1df2f4c6ce804d5476527e3d771ce"
+  }
+}

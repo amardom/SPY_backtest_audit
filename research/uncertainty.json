@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "stage": "exploratory_uncertainty_added_after_validation_observed",
+  "estimand": "mean_daily_log_growth_dip_minus_mean_of_fixed_random_calendars",
+  "cost_bps_per_side": "5",
+  "calendar_ensemble": "all_500_previously_recorded_calendars",
+  "bootstrap": "paired_stationary_circular_geometric_blocks",
+  "primary_mean_block_sessions": 20,
+  "mean_block_sensitivity_sessions": [
+    5,
+    20,
+    60
+  ],
+  "resamples": 5000,
+  "seed": 314159,
+  "generator": "numpy_PCG64_SeedSequence_seed_period_block",
+  "batch_size": 128,
+  "interval": "percentile",
+  "confidence_level": 0.95,
+  "quantile_method": "linear",
+  "period_codes": {
+    "development": 0,
+    "validation": 1
+  },
+  "rerun_trading_on_resampled_paths": false,
+  "original_validation_screen": "unchanged",
+  "p_value": false,
+  "selection_adjusted": false,
+  "final_period": "2022-2025_not_accessed"
+}

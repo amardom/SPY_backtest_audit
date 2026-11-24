@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "symbol": "SPY",
+  "currency": "USD",
+  "source": "Yahoo Finance public chart endpoint / https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=946684800&period2=1640995200&interval=1d&events=div%2Csplits",
+  "retrieved_at": "2026-10-20T09:12:35.421431+00:00",
+  "price_basis": "split_adjusted",
+  "adjustment_notes": "Yahoo OHLC are split-adjusted, not asserted as-traded. adjusted_close additionally reflects vendor dividend adjustments. Values are observed at retrieval time, not a point-in-time archive. Event amounts and volume are retained as supplied; split_factor is new/old shares, 1 on non-event sessions.",
+  "usage_notes": "Free provisional research source; no data redistribution or public-report usage permission has been established. Raw and normalized vendor data remain untracked.",
+  "sha256": "b3b99053f6125990a88bb86e5dded9fe548ea9857dce7236dc3f708160e03ea2",
+  "original_sha256": "adb5c2b7e316956eb1bacb1d238d7e49c1cafab94c088d1788effec1f896d5ee",
+  "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=946684800&period2=1640995200&interval=1d&events=div%2Csplits",
+  "plan_version": 1
+}

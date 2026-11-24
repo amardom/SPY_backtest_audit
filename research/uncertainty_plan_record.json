@@ -1,0 +1,8 @@
+{
+  "status": "SPECIFIED_AFTER_VALIDATION_BEFORE_INTERVALS",
+  "file_sha256": {
+    "research/uncertainty.json": "65f2ab6bdff278ec2994fa6906650556bf720e6eaee6d1d484f17fb4b0be1da5",
+    "research/uncertainty_rules.md": "5b13879319e16b824b211521b877115611098833737a9700e4ea4879cd44e7e2",
+    "research/validation_first_observation.json": "f9eb2207b81250a0870d17d8a34bbf013d71de02c6a5274511276fc9642ee4c4"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "project_rename",
+  "project": "SPY_backtest_audit",
+  "source_commit": "ee78e483620852774e531ed9d6fc9d489c6b1300",
+  "note": "Project labels and package paths were renamed. Linked file hashes were refreshed. Original observation dates, numerical results and first-execution code digests were retained; their path labels use the current package name. This is a naming migration, not a new pre-validation freeze.",
+  "changed_research_records": {
+    "research/data_contract.md": {
+      "previous_sha256": "d334902f639d24b94e98151f7939414c7e4f2a29589d67ef33ab6f5050f22637",
+      "current_sha256": "25172210a15a7509600341bf9349ed03cc8f90915965197bc08cbb21bb201346"
+    },
+    "research/parameter_family_plan_record.json": {
+      "previous_sha256": "436cb5ed4e74d443b235401f26fba2ab53117f83c0979c3e44846d9292866a63",
+      "current_sha256": "43ed6429bec720a329ac802ae0eb8be98c18688250401a7c9419e4f8420c4e81"
+    },
+    "research/signal_rules.md": {
+      "previous_sha256": "309bab585a0d650264616c56ebc0948dcdb01879d4bb34b7a6c0c6198472a2ac",
+      "current_sha256": "27677915bebb5ecf1eb0bdcb653d0b8e1d0da20edcac28da9739139e5f54d584"
+    },
+    "research/uncertainty_plan_record.json": {
+      "previous_sha256": "43ef11af2121eafdbed91962a82f66b76e5efd44f7a9a659d6106f856fe87b35",
+      "current_sha256": "f79c6910b8851bb4bc3e1a142166c82adde4463626f1af4b4922b72b23af61b2"
+    },
+    "research/validation_first_observation.json": {
+      "previous_sha256": "35c51f761eeafdcc3805bf3d5309f5f07cda12e8d3476316c87bbe750d373b9e",
+      "current_sha256": "f9eb2207b81250a0870d17d8a34bbf013d71de02c6a5274511276fc9642ee4c4"
+    },
+    "research/validation_freeze.json": {
+      "previous_sha256": "c4ff6c41556e2581e9316d8d6efa84a8ca85002af7c850cf17a5648fdd077c93",
+      "current_sha256": "fa8a7ed7739e190a6691ed647d49347da65ff544521e2ba8a407bf9efce6c892"
+    }
+  }
+}

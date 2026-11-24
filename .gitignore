@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.env
+.env.*
+!.env.example
+build/
+dist/
+outputs/
+data/raw/*
+!data/raw/spy.csv
+!data/raw/spy.manifest.json
+!data/raw/spy.yahoo.json
+!data/raw/spy.yahoo.acquisition.json
+data/processed/

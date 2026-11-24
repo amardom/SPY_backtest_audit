@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "calendar": "XNYS",
+  "start": "2000-01-01",
+  "end_exclusive": "2022-01-01",
+  "source": "https://github.com/gerrymanoim/exchange_calendars",
+  "python": "3.12.3",
+  "packages": {
+    "exchange_calendars": "4.13.2",
+    "pandas": "3.0.6",
+    "numpy": "2.5.4",
+    "tzdata": "2026.5",
+    "python-dateutil": "2.9.0.post0",
+    "pyluach": "2.3.0",
+    "korean_lunar_calendar": "0.4.0",
+    "toolz": "1.2.0",
+    "six": "1.17.0"
+  },
+  "sessions": 5536,
+  "sha256": "ebd21bb821ef8be0bf5abe7d33eca5da02a1df2f4c6ce804d5476527e3d771ce",
+  "generator_sha256": "453fe43c95a63c97446e8217f657b8d9c26d8117068fb655f23c9ada6907609f",
+  "notes": "Offline model calendar, not an official exchange certification. Early closes remain sessions. No prices or strategy returns."
+}

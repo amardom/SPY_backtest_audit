@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "name": "dip_reversal_primary",
+  "lookback_sessions": 20,
+  "threshold_sigma": "2",
+  "holding_open_intervals": 5,
+  "volatility": "sample_standard_deviation_excluding_signal_day",
+  "signal_return": "close_to_close_including_ex_date_dividend",
+  "entry": "next_available_session_open",
+  "exit": "entry_open_plus_holding_open_intervals",
+  "overlap": "ignore_signals_while_position_open",
+  "scope": "development_only",
+  "performance_evaluated": false
+}

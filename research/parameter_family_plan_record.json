@@ -1,0 +1,8 @@
+{
+  "status": "SPECIFIED_AFTER_VALIDATION_BEFORE_FAMILY_RESULTS",
+  "file_sha256": {
+    "research/parameter_family.json": "b0a5358a26047fce95895de64d2ec2e4488ebb93081eefddfa297c0a453a96b5",
+    "research/parameter_family_rules.md": "8444ca056912699f5c57e8cf8a1e790caadab1a922090ba6d1c5c8120eb8a652",
+    "research/validation_first_observation.json": "f9eb2207b81250a0870d17d8a34bbf013d71de02c6a5274511276fc9642ee4c4"
+  }
+}

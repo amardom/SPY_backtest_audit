@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "calendars": 500,
+  "seed": 1729,
+  "sampler": "uniform_nonoverlapping_fixed_count_v1",
+  "scope": "development_only",
+  "cost_scenario": "primary_only",
+  "match": ["trade_count", "open_to_open_holding_intervals", "one_position", "cost_rate", "evaluation_window"],
+  "interpretation": "descriptive_retrospective_reference_not_a_p_value"
+}

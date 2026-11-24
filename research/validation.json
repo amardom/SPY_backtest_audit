@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "status": "RULES_FROZEN_NOT_EXECUTED",
+  "scope": "2016-2021_retrospective_temporal_validation",
+  "signal": "unchanged_primary_20_sessions_negative_2_sigma_5_open_intervals",
+  "selection": "primary_only_no_parameter_selection",
+  "warmup": "21_preceding_sessions_for_returns_only_no_carry_position",
+  "first_signal": "first_validation_close",
+  "first_eligible_entry": "second_validation_session_open",
+  "last_entry": "only_when_five_open_intervals_finish_within_validation",
+  "terminal_policy": "no_truncated_validation_trades",
+  "cost_bps_per_side": ["0", "5", "10"],
+  "primary_cost_bps_per_side": "5",
+  "controls": "500_fixed_count_calendars_seed_1729_same_sampler_and_accounting",
+  "primary_descriptive_contrast": "net_terminal_return_minus_median_control_return_at_5bps",
+  "inference": "descriptive_screen_no_p_value_no_alpha_claim",
+  "screen": {
+    "no_executable_trades": "INCONCLUSIVE",
+    "net_primary_nonpositive_or_control_contrast_nonpositive": "NOT_SUPPORTED_BY_VALIDATION_SCREEN",
+    "positive_primary_and_contrast_but_nonpositive_at_10bps": "INCONCLUSIVE_COST_FRAGILE",
+    "positive_primary_contrast_and_10bps_return": "PROMISING_MORE_RESEARCH"
+  },
+  "final_evaluation": "2022-2025_not_acquired_or_evaluated",
+  "no_live_deployment_decision": true
+}

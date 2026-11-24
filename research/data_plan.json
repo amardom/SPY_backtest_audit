@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "status": "PROVISIONAL_DATA_SOURCE_NO_STRATEGY_RESULTS_VIEWED",
+  "symbol": "SPY",
+  "source": "Yahoo Finance public chart endpoint",
+  "frequency": "1d",
+  "budget": "zero; no subscriptions or account registration",
+  "development": {"start": "2000-01-01", "end_exclusive": "2016-01-01"},
+  "validation": {"start": "2016-01-01", "end_exclusive": "2022-01-01"},
+  "final_evaluation": {"start": "2022-01-01", "end_exclusive": "2026-01-01", "access": "NOT_REQUESTED"},
+  "acquisition_end_exclusive": "2022-01-01",
+  "notes": [
+    "Calendar boundaries selected for a long development sample and two later evaluation stages, not from observed strategy performance.",
+    "Final evaluation must not be acquired by the current downloader. Freeze strategy, selection and inference rules before authorizing its acquisition.",
+    "Historical separation is retrospective, not a prospective experiment or a claim that historical market regimes are unknown.",
+    "Free access is not a redistribution license. Keep vendor data out of Git; public-report usage rights remain unconfirmed.",
+    "Archived vendor-adjusted prices are observed at acquisition time; no point-in-time corporate-action database is claimed."
+  ]
+}

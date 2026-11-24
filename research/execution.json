@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "initial_capital_usd": "100000",
+  "primary_cost_bps_per_side": "5",
+  "cost_scenarios_bps_per_side": ["0", "5", "10"],
+  "sizing": "all_available_cash_fractional_shares",
+  "cash_return": "zero",
+  "dividends": "ex_date_cash_no_intraposition_reinvestment",
+  "terminal_policy": "liquidate_at_last_development_close",
+  "benchmark": "buy_and_hold_same_evaluation_window",
+  "scope": "development_only",
+  "cost_interpretation": "illustrative_all_in_proportional_cost_not_empirical_estimate"
+}
